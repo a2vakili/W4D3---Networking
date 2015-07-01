@@ -1,15 +1,18 @@
 //
-//  ForksViewController.h
+//  Repo.h
 //  Gitwheel
 //
 //  Created by Cory Alder on 2015-07-01.
 //  Copyright (c) 2015 Cory Alder. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface ForksViewController : UITableViewController
+@interface Repo : NSObject
 
+@property (nonatomic, strong) NSString *fullName;
 @property (nonatomic, strong) NSURL *forkUrl;
+@property (nonatomic, strong) NSNumber *forkCount;
+
 
 @end

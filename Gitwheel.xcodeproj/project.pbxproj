@@ -15,6 +15,7 @@
 		8BD7FB3F1B43F9BA000CC04B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BD7FB3D1B43F9BA000CC04B /* LaunchScreen.xib */; };
 		8BD7FB4B1B43F9BA000CC04B /* GitwheelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD7FB4A1B43F9BA000CC04B /* GitwheelTests.m */; };
 		8BD7FB561B43FB34000CC04B /* ForksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD7FB551B43FB34000CC04B /* ForksViewController.m */; };
+		8BD7FB591B443415000CC04B /* Repo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD7FB581B443415000CC04B /* Repo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		8BD7FB4A1B43F9BA000CC04B /* GitwheelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitwheelTests.m; sourceTree = "<group>"; };
 		8BD7FB541B43FB34000CC04B /* ForksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForksViewController.h; sourceTree = "<group>"; };
 		8BD7FB551B43FB34000CC04B /* ForksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForksViewController.m; sourceTree = "<group>"; };
+		8BD7FB571B443415000CC04B /* Repo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Repo.h; sourceTree = "<group>"; };
+		8BD7FB581B443415000CC04B /* Repo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Repo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				8BD7FB331B43F9BA000CC04B /* ReposViewController.m */,
 				8BD7FB541B43FB34000CC04B /* ForksViewController.h */,
 				8BD7FB551B43FB34000CC04B /* ForksViewController.m */,
+				8BD7FB571B443415000CC04B /* Repo.h */,
+				8BD7FB581B443415000CC04B /* Repo.m */,
 				8BD7FB381B43F9BA000CC04B /* Main.storyboard */,
 				8BD7FB3B1B43F9BA000CC04B /* Images.xcassets */,
 				8BD7FB3D1B43F9BA000CC04B /* LaunchScreen.xib */,
@@ -224,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BD7FB591B443415000CC04B /* Repo.m in Sources */,
 				8BD7FB561B43FB34000CC04B /* ForksViewController.m in Sources */,
 				8BD7FB311B43F9BA000CC04B /* AppDelegate.m in Sources */,
 				8BD7FB341B43F9BA000CC04B /* ReposViewController.m in Sources */,
@@ -422,6 +428,7 @@
 				8BD7FB501B43F9BA000CC04B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BD7FB511B43F9BA000CC04B /* Build configuration list for PBXNativeTarget "GitwheelTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +437,7 @@
 				8BD7FB531B43F9BA000CC04B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
